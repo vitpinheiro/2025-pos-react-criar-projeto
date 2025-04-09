@@ -6,7 +6,7 @@ export default function Home() {
         Projeto criado como parte da disciplina de Programação Orientada a Serviços (POS), do curso Infoweb no IFRN - CNAT.
       </p>
       <p className="text-md text-gray-600 mb-8">
-        Desenvolvido por Vitória Pinheiro <a href="https://github.com/vitpinheiro" target="_blank" className="text-blue-500 hover:underline">Seu Nome</a>
+        Desenvolvido por  <a href="https://github.com/vitpinheiro" target="_blank" className="text-blue-500 hover:underline">Vitória Pinheiro</a>
       </p>
 
       <ul className="text-left list-disc list-inside max-w-md text-sm sm:text-base">
