@@ -219,9 +219,23 @@ next-env.d.ts
 
 ### 9. Conectar ao repositório remoto
 
+Fazer um fork do repositório da atividade [criar projeto react](https://github.com/infoweb-pos/2025-pos-react-criar-projeto) para sua conta pessoal do [github](https://github.com/).
+
+Após o fork, pegar a URL do repositório da sua conta e executar o comando `git remote add origin URL`, conforme terminal abaixo.
+Lembrar de substituir `URL` pela URL de fato do seu repositório.
+
+
+Para verficar se funcionou, executar o comando `git remote -v`.
+O terminal aparecerá informações da _tag_ `origin` como mostrado no terminal abaixo na execução do 2o comando.
+
 ```shell
 [minora@fedora react-01-criar-projeto] $ git remote add origin URL
 
+[minora@fedora react-01-criar-projeto] $ git remote -v
+origin	https://github.com/leonardo-minora/2025-pos-react-criar-projeto.git (fetch)
+origin	https://github.com/leonardo-minora/2025-pos-react-criar-projeto.git (push)
+
+[minora@fedora react-01-criar-projeto] $ 
 ```
 
 ### 10. Trazer as atualizações do repositório remoto para repositório local
@@ -232,6 +246,9 @@ next-env.d.ts
 ```
 
 ### 11. Modificar arquivo `README.md`
+
+Procurar por FIXME e colocar o nome do aluno.
+Pode colocar como hiperlink para sua conta do github, como feito no nome do professor.
 
 ### 12. Guardar localmente a segunda versão do projeto
 
